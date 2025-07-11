@@ -21,9 +21,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-top_image = Image.open('static/banner_top.png')
-bottom_image = Image.open('static/banner_bottom.png')
-main_image = Image.open('static/main_banner.png')
+top_image = Image.open('ToDoApp-streamlit/static/banner_top.png')
+bottom_image = Image.open('ToDoApp-streamlit/static/banner_bottom.png')
+main_image = Image.open('ToDoApp-streamlit/static/main_banner.png')
 
 st.image(main_image,use_column_width='always')
 st.title("📄 ToDo App 🗣")
